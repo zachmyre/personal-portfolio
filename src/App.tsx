@@ -5,7 +5,7 @@ import Campsite from './components/models/Campsite'
 const App = () => {
   return (
     <>
-     <Canvas>
+     <Canvas style={{height: "100vh", width: "100vw"}}>
       <ambientLight />
       <Campsite/>
      </Canvas>
